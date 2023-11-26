@@ -1,0 +1,50 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.layer-setting [class*="btn-"] a::before,
+.footer .group-notice .more,
+.col-right .whale-image,
+.art-widget .board-footer .mobile-more,
+.art-widget .board-footer .mobile-logo,
+.art-widget .board-bottom h2,
+.art-widget .dict-wrap .btn-search::before,
+.art-widget .link-papago [class*="papago-"],
+.art-stock .stock-icon,
+.art-stock .group-header [class*="btn-"]::before,
+.art-weather .group-header>a::before,
+.sc-recipe .group-theme .btn-next::before,
+.sc-recipe .group-main .main-item .recipe-image .video-icon,
+.sc-shop .group-control .control-area [class*="btn-"]::before,
+.sc-news .group-control .set-area [class*="btn-"]::before,
+.sc-news .group-control .control-area [class*="btn-"]::before,
+.sc-news .group-issue .issue-area .btn-media::after,
+.sc-login .link-login::before,
+.header .pay-area .btn-pay::before,
+.header .talk-area .btn-talk::before,
+.header .alert-area .btn-alert::before,
+.header .menu-area .btn-menu::before,
+.gnb .nav-item [class*="ic-"]::after,
+.gnb .nav-item [class*="ic-"]::before,
+.header .group-search [class*="btn-"]::after{
+    background-image: url(../images/sp-bg.png);
+    background-size: 434px;
+    background-repeat: no-repeat;
+} 
+
+.sc-shop .group-main .group-right .ic-area .ic-item a [class*="ic-"]::before{
+    background-image: url(../images/sp-bg1.png);
+    background-size: 134px 121px;
+    background-repeat: no-repeat;
+}
+
+.art-weather .weather-img{
+    background-image: url(../images/sp-bg3.png);
+    background-size: 641px 587px;
+    background-repeat: no-repeat;
+}
